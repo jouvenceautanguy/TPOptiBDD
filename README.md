@@ -30,3 +30,4 @@ de participants pour chaque événement
 Ajour de la gestion des transactions pour les méthodes de création et de suppression
 
 
+<img width="852" alt="Capture d’écran 2024-11-22 à 16 42 33" src="https://github.com/user-attachments/assets/33d7c0c0-a9b9-4531-b82d-b91c131f40ed">
