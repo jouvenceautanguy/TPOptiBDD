@@ -1,0 +1,50 @@
+1732288532904|10|statement|select * from information_schema.sequences
+1732288532959|2|statement|select * from "public"."events" where 1=0
+1732288532968|0|statement|select * from "public"."addresses" where 1=0
+1732288532971|0|statement|select * from "public"."event_details" where 1=0
+1732288532975|0|statement|select * from "public"."users" where 1=0
+1732288532981|0|statement|select * from "public"."events" where 1=0
+1732288532983|0|statement|select * from "public"."users" where 1=0
+1732288532988|0|statement|select * from "public"."events" where 1=0
+1732288532990|0|statement|select * from "public"."users" where 1=0
+1732288532995|0|statement|select * from "public"."addresses" where 1=0
+1732288554979|7|statement|select e1_0.id,e1_0.address_id,a1_0.id,a1_0.city,a1_0.region,e1_0.capacity,e1_0.date_time,e1_0.description,ed1_0.id,ed1_0.event_id,ed1_0.key,ed1_0.value,e1_0.is_paid,e1_0.name,e1_0.organizer_id,o1_0.id,a2_0.id,a2_0.city,a2_0.region,o1_0.age,o1_0.email,o1_0.interests,o1_0.password,o1_0.rating,o1_0.username,e1_0.price,e1_0.type from events e1_0 join addresses a1_0 on a1_0.id=e1_0.address_id left join event_details ed1_0 on ed1_0.id=e1_0.event_detail_id join users o1_0 on o1_0.id=e1_0.organizer_id left join addresses a2_0 on a2_0.id=o1_0.address_id where e1_0.id=1
+1732288554989|1|commit|
+??
+
+
+1732288679786|10|statement|REFRESH MATERIALIZED VIEW event_participant_count
+1732289066253|8|statement|select * from information_schema.sequences
+1732289066285|0|statement|select * from "public"."events" where 1=0
+1732289066297|1|statement|select * from "public"."addresses" where 1=0
+1732289066300|0|statement|select * from "public"."event_details" where 1=0
+1732289066303|0|statement|select * from "public"."users" where 1=0
+1732289066310|0|statement|select * from "public"."events" where 1=0
+1732289066312|0|statement|select * from "public"."users" where 1=0
+1732289066317|0|statement|select * from "public"."events" where 1=0
+1732289066318|0|statement|select * from "public"."users" where 1=0
+1732289066323|0|statement|select * from "public"."addresses" where 1=0
+1732289090935|7|statement|select e1_0.id,e1_0.address_id,a1_0.id,a1_0.city,a1_0.region,e1_0.capacity,e1_0.date_time,e1_0.description,ed1_0.id,ed1_0.event_id,ed1_0.key,ed1_0.value,e1_0.is_paid,e1_0.name,e1_0.organizer_id,o1_0.id,a2_0.id,a2_0.city,a2_0.region,o1_0.age,o1_0.email,o1_0.interests,o1_0.password,o1_0.rating,o1_0.username,e1_0.price,e1_0.type from events e1_0 join addresses a1_0 on a1_0.id=e1_0.address_id left join event_details ed1_0 on ed1_0.id=e1_0.event_detail_id join users o1_0 on o1_0.id=e1_0.organizer_id left join addresses a2_0 on a2_0.id=o1_0.address_id where e1_0.id=1
+1732289090949|1|commit|
+1732289115734|2|statement|select e1_0.id,e1_0.address_id,a1_0.id,a1_0.city,a1_0.region,e1_0.capacity,e1_0.date_time,e1_0.description,ed1_0.id,ed1_0.event_id,ed1_0.key,ed1_0.value,e1_0.is_paid,e1_0.name,e1_0.organizer_id,o1_0.id,a2_0.id,a2_0.city,a2_0.region,o1_0.age,o1_0.email,o1_0.interests,o1_0.password,o1_0.rating,o1_0.username,e1_0.price,e1_0.type from events e1_0 join addresses a1_0 on a1_0.id=e1_0.address_id left join event_details ed1_0 on ed1_0.id=e1_0.event_detail_id join users o1_0 on o1_0.id=e1_0.organizer_id left join addresses a2_0 on a2_0.id=o1_0.address_id where e1_0.id=1
+1732289115739|0|commit|
+1732289203773|7|statement|select * from information_schema.sequences
+1732289203810|0|statement|select * from "public"."events" where 1=0
+1732289203820|0|statement|select * from "public"."addresses" where 1=0
+1732289203823|0|statement|select * from "public"."event_details" where 1=0
+1732289203825|0|statement|select * from "public"."users" where 1=0
+1732289203832|0|statement|select * from "public"."events" where 1=0
+1732289203833|0|statement|select * from "public"."users" where 1=0
+1732289203838|0|statement|select * from "public"."events" where 1=0
+1732289203840|0|statement|select * from "public"."users" where 1=0
+1732289203845|0|statement|select * from "public"."addresses" where 1=0
+1732289222260|9|statement|select * from information_schema.sequences
+1732289222293|0|statement|select * from "public"."events" where 1=0
+1732289222303|0|statement|select * from "public"."addresses" where 1=0
+1732289222305|0|statement|select * from "public"."event_details" where 1=0
+1732289222308|0|statement|select * from "public"."users" where 1=0
+1732289222315|0|statement|select * from "public"."events" where 1=0
+1732289222316|0|statement|select * from "public"."users" where 1=0
+1732289222323|0|statement|select * from "public"."events" where 1=0
+1732289222324|0|statement|select * from "public"."users" where 1=0
+1732289222329|0|statement|select * from "public"."addresses" where 1=0
